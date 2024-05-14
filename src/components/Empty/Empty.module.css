@@ -1,0 +1,25 @@
+.empty {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    border-top: 1px solid #333;
+    margin: 1rem 0;
+    padding: 2rem 1rem;
+    
+    p {
+        margin: 2px;
+    }
+
+    & img {
+        width: 56px;
+        height: 56px;
+        margin: 1rem 0;
+    }
+    
+    & :nth-child(2) {
+        font-weight: bold;
+    }
+}
